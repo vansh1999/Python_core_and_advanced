@@ -1,0 +1,42 @@
+
+sequence data type - 
+
+list,tuple,set,dictionaries
+
+#1 list vs array
+
+Basically, Python lists are very flexible and can hold completely heterogeneous,
+ arbitrary data, and they can be appended to very efficiently, in amortized constant time.
+  If you need to shrink and grow your list time-efficiently and without hassle, they are 
+  the way to go. But they use a lot more space than C arrays.
+
+For almost all cases the normal list is the right choice.
+ The arrays module is more like a thin wrapper over C arrays,
+  which give you kind of strongly typed containers (see docs), 
+  with access to more C-like types such as signed/unsigned short or
+   double, which are not part of the built-in types. I'd say use the arrays
+    module only if you really need it, in all other cases stick with lists.
+
+    eg - in matrix add or mul we use list instead of array , as python does not support array , not-build-in
+
+
+1. List 
+> heterogeneous container for items
+>list is mutable
+>ordered
+
+2. Tuple
+> heterogeneous
+> Immutable
+> ordered
+
+3. Set
+> A set, in Python, is just like the mathematical set.
+> not hold duplicate values
+> unordered
+> mutable
+
+4. dictionary
+
+dictionary holds key-value pairs.
+
