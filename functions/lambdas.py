@@ -12,7 +12,7 @@
 
 # result = f(10)
 
-# use
+# applications of lambda
 # 1 filter
 # 2 map
 # 3 reduce
@@ -61,6 +61,8 @@
 # 2 . map function
 
 # used to do function in all data set
+# syntax ---  map(<lambda fun> , <data-set>)
+
 
 # double lst value
 
@@ -72,7 +74,11 @@
 
 
 # reduce - in data set result get reduced.
+# syntax ---  reduce(<lambda fun> , <data-set>)
+
+
 # to find sum of all numbers/elements in list
+
 
 # from functools import reduce
 

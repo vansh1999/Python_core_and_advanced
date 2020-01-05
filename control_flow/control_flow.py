@@ -105,11 +105,11 @@ code ->-assert condition->-
 
 # assertion is raised when condition is false
 
-n = int(input("enter a number "))
+# n = int(input("enter a number "))
 
-assert n>10 , "wrong input"
+# assert n>10 , "wrong input"
 
-print("u enterd" , n)
+# print("u enterd" , n)
 
 
 # try/except
@@ -130,13 +130,13 @@ finally:
 '''
 
 
-x = 0
+# x = 0
 
-try:
-    ans = 1/x
+# try:
+#     ans = 1/x
     
-except ZeroDivisionError:
-    ans = "not defined"
+# except ZeroDivisionError:
+#     ans = "not defined"
 
-print("answer is " , ans)
+# print("answer is " , ans)
 
